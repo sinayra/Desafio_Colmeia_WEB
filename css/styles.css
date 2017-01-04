@@ -3,6 +3,7 @@ body {
     text-align: center;
     padding: 0 25px;
     font-family: 'Raleway', sans-serif;
+    color: #A2A2A2;
 }
 
 #main {
@@ -63,7 +64,6 @@ table.prof  img.avatar{
     -moz-border-radius: 50%;
     display: block;
     width: 100%;
-    height: 10%;
 }
 
 a:link,

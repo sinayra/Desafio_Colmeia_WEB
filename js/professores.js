@@ -16,6 +16,12 @@ $.fn.stars = function() {
     });
 }
 
+$(window).on('resize', function(){
+  $( "img.avatar" ).each(function( index ) {
+    $( this ).css({'height': $(this).width() + 'px'});
+  });
+});
+
 $( "#busca" ).submit(function( event ) {
   event.preventDefault();
 });
@@ -122,6 +128,9 @@ function busca(nome){
         $(".resultados").html(html);
 
         $('span.stars').stars();
+        $( "img.avatar" ).each(function( index ) {
+          $( this ).css({'height': $(this).width() + 'px'});
+        });
       }
     },
     error: function (error) {
