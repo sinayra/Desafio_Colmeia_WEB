@@ -8,7 +8,7 @@ O usuário escreve numa caixa de texto o nome do professor e o sistema imprime n
 O executável deste programa foi gerado apenas para Windows 64bits.
 
 ##Execução
-Baixe o [último release](https://github.com/sinayra/Desafio_Colmeia_WEB/releases/latest) último release e execute o arquivo *ColmeiaBuscaProfessores.exe*.
+Baixe o [último release](https://github.com/sinayra/Desafio_Colmeia_WEB/releases/latest) e execute o arquivo *ColmeiaBuscaProfessores.exe*.
 
 ## Informações adicionais
 - Autor: Sinayra Pascoal Cotts Moreira
