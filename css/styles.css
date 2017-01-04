@@ -51,6 +51,7 @@ table.prof{
 table.prof th, table.prof{
     border-top: 1px dashed #CACACA;
     padding-left: 10px;
+    padding-top: 20px;
     margin-top: 20px;
 }
 

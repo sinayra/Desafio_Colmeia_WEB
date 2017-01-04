@@ -1,11 +1,16 @@
 {
-  "name": "Colmeia_Busca_de_Professores",
-  "version": "0.1.0",
+  "name": "ColmeiaBuscaProfessores",
+  "version": "1.0.0",
   "main": "main.js",
-  "devDependencies": {
-    "electron": "^1.4.13"
-  },
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron .",
+    "package-all": "electron-packager ./ ColmeiaBuscaProfessores --all --out builds --version 1.0.0 --overwrite --asar=true",
+    "package": "electron-packager ./ ColmeiaBuscaProfessores --out builds --version 1.0.0 --overwrite --asar=true"
+  },
+  "repository": "https://github.com/sinayra/Desafio_Colmeia_WEB",
+  "author": "Sinayra Pascoal Cotts Moreira",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.4.0"
   }
 }

@@ -8,7 +8,7 @@ let win
 
 function createWindow () {
   // Create the browser window.
-  win = new BrowserWindow({width: 1360, height: 630})
+  win = new BrowserWindow({width: 1360, height: 768, maximizable: true})
 
   // and load the index.html of the app.
   win.loadURL(url.format({
@@ -16,6 +16,10 @@ function createWindow () {
     protocol: 'file:',
     slashes: true
   }))
+
+  win.maximize();
+  win.setMenu(null);
+
 
   // Open the DevTools.
   //win.webContents.openDevTools()
@@ -51,7 +55,7 @@ app.on('activate', () => {
   // On macOS it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
   if (win === null) {
-    createWindow()
+    createWindow();
   }
 
 });
